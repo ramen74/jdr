@@ -1,0 +1,1776 @@
+/!\ FAILSAFE /!\  Tue Aug 07 07:57:26 -0700 2012
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Tue Aug 07 07:57:29 -0700 2012
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Tue Aug 07 07:57:34 -0700 2012
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 08 21:11:32 -0700 2012
+  Status: 500 Internal Server Error
+  Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 08 21:12:35 -0700 2012
+  Status: 500 Internal Server Error
+  Unknown database 'jdr_dev'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 08 21:12:38 -0700 2012
+  Status: 500 Internal Server Error
+  Unknown database 'jdr_dev'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 08 21:12:50 -0700 2012
+  Status: 500 Internal Server Error
+  Unknown database 'jdr_dev'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 08 21:12:53 -0700 2012
+  Status: 500 Internal Server Error
+  Unknown database 'jdr_dev'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 08 21:12:56 -0700 2012
+  Status: 500 Internal Server Error
+  Unknown database 'jdr_dev'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dszydlowski/.rvm/gems/ruby-1.8.7-p174@cp/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 21:14:09) [GET]
+
+ActionView::MissingTemplate (Missing layout layouts/standard.erb in view path app/views):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 21:19:17) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 174ms (View: 173, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 21:19:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 21:19:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 21:36:15) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 21:36:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:19:29) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:19:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:20:48) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:20:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:21:47) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:21:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:21:48) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:21:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:21:49) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:21:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:22:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:22:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:23:43) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-08-08 22:23:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/standard.css" with {:method=>:get}):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:24:06) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:24:28) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:26:52) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:27:11) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:27:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:29:10) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:29:11) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:29:34) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:29:36) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:30:38) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:30:58) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:30:59) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:31:38) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:34:30) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:35:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:35:36) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:35:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:35:54) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:36:04) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:36:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:37:14) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:37:34) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:38:02) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:39:30) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:40:40) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:41:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 43ms (View: 4, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:41:51) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:43:16) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:44:48) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:45:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:45:47) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:46:05) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:48:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:48:57) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:53:11) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:53:34) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:54:25) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:54:40) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:55:15) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 22:59:03) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:02:18) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:43:08) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:43:49) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index_2 (for 127.0.0.1 at 2012-08-08 23:47:22) [GET]
+
+ActionController::UnknownAction (No action responded to index_2. Actions: index):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:47:25) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 58ms (View: 57, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:47:52) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:53:19) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:55:28) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 70ms (View: 69, DB: 3) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-08 23:56:06) [GET]
+
+ActionController::UnknownAction (No action responded to jen. Actions: index):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index_2 (for 127.0.0.1 at 2012-08-08 23:56:24) [GET]
+  Parameters: {"classification"=>"cruiser"}
+
+ActionController::UnknownAction (No action responded to index_2. Actions: index):
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dszydlowski/.rvm/rubies/ruby-1.8.7-p174/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:57:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:58:01) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 56ms (View: 55, DB: 1) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:59:01) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-08 23:59:11) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:01:23) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:01:49) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:02:00) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:04:50) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 00:04:52) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 00:04:55) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:07:05) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:07:08) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 00:07:10) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 00:07:33) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 00:07:40) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 00:07:42) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:09:25) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 00:09:44) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 00:09:48) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 00:10:26) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:10:30) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 00:10:31) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 00:10:34) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:14:16) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:15:11) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:15:37) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:16:00) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:16:39) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:17:24) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:18:02) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:19:15) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:20:51) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:21:15) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:21:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:22:02) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:22:11) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:22:40) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:23:06) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:23:59) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:25:10) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:25:26) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:26:57) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:27:42) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 60ms (View: 59, DB: 1) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:27:43) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:27:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:28:40) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:28:55) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:29:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:29:48) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:30:22) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:30:43) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:30:56) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:31:45) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:32:51) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:33:52) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:33:53) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:33:54) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:34:01) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 61ms (View: 60, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:34:46) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:36:22) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 00:36:23) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (11.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (8.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 10:33:31) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 186ms (View: 185, DB: 20) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-09 15:21:59) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Completed in 55ms (View: 53, DB: 1) | 200 OK [http://localhost/main/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 15:22:08) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/main/jen]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 15:22:11) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 87ms (View: 85, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-09 23:17:14) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-09 23:17:17) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/main/jen]

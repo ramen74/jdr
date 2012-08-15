@@ -1,0 +1,32 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 100; text-align: center; color: #CCCCCC; text-align: center;
+  background-color: #990066;
+}
+
+#intro { text-align: center; width: 800px; margin:0 auto; }
+
+#head { font-size: 25px; font-weight: 500;  margin-bottom: 20px; margin-top: 20px }
+
+#concept { }
+
+#footer { background-color: #CCCCCC; padding: 5px; color: black; margin-top: 20px; }
+
+.spacer { margin-right: 5px; margin-left: 10px;}
+
+#bio { margin-top: 20px }
+
+.bio_link { padding-left: 10px; padding-right: 10px; font-weight: bold; }
+
+.personal_bio li { list-style: none;}
+
+ #sample_menu { width: 400px; margin:20px auto; margin-bottom: 50px;}
+.sample_menu { padding-top: 0px; margin-top: 20px; }
+.sample_menu li { list-style: none; margin: 0px; }
+.sample_menu ul { margin: 0px;}
+
+/*
+.footer { background-color: black; border-top: 1px solid white;  padding: 15px; text-align: center; margin-top: 20px;}
+.footer a {font-size: 20px; color:white; margin:10px; }
+.footer a:hover { color: red; }
+*/
