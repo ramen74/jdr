@@ -15,26 +15,25 @@
 <script type="text/javascript"> var $j = jQuery.noConflict(); </script>
 
 <%= stylesheet_link_tag 'main' %>
+<%= stylesheet_link_tag 'reset' %>
+<%= stylesheet_link_tag 'text' %>
+<%= stylesheet_link_tag '960' %>
 
 </head>
 
 <body>
-	
-<div id="intro">
+  <div id="intro" class="container_16">
 
-  <div id="head"> 
-    JD'S REVENGE 
-  </div>
+    <div id="head"> 
+      JD'S REVENGE 
+    </div>
 
-  <div id="content">
-    <%= @content_for_layout %>
-  </div>
+    <div id="content">
+      <%= @content_for_layout %>
+    </div>
   
-  <div id="footer">
-	<span id="email">EMAIL: <%= mail_to "jdsrevengesf@gmail.com", "JD's revenge" %></span><span class="spacer">|</span>
-	<span id="phone">PHONE: 415-225-2956</span>
-  </div>
+    <div id="footer">
 
-</div>
+  </div>
 
 </body>

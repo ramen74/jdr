@@ -27,7 +27,10 @@ a:active {color:#0000FF;}  /* selected link */
 
 .bio_link { padding-left: 10px; padding-right: 10px; font-weight: bold; }
 
- .personal_bio { height: 450px; }
+ #darren_pict {border: none; background-image: url('../images/darren.png'); height: 200px; background-repeat: no-repeat;
+margin: 0 auto;}
+	
+.personal_bio { height: 450px; }
 .personal_bio li { list-style: none;  }
 
  #sample_menu { width: 400px; margin:20px auto; margin-bottom: 50px;}
