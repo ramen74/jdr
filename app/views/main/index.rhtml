@@ -1,4 +1,4 @@
-<div id="concept">
+<div id="concept" class="grid_12">
 	
 JD's revenge is made up of husband and wife team of Jen McMahon and Darren Lacy. Together they have over 40 years experience in kitchens     across the Bay Area. 
 <br/><br/>
@@ -8,34 +8,94 @@ The idea is simple, make good food on our own terms period. Being in this busine
 
 </div>
 
-<div id="bio">
+<div id="bio" class="grid_12">
   <span class="bio_link"><%= link_to "Jen's BIO", :controller => "main", :action => "jen" %> </span>
   <span class="bio_link"><%= link_to "Darren's BIO", :controller => "main", :action => "darren"  %> </span>
 </div>
 
+
 <div id="sample_menu">
-	
-  Sample Menu's: Coming soon
+	<h2>Sample Brunch menu</h2>
 
-<!--  <div class="sample_menu">
-	<h3>Bayou Brunch</h3> 
-	<ul>
-      <li>Crab Cakes Eggs Benedict</li>
-      <li>Alligator Frittata</li>
-      <li>True Blood Rasberry Mimosa</li>
-    </ul>
-  </div> 
-	
-  <div class="sample_menu">
-	<h3>Spagetti Western</h3>
-	<ul>
-      <li>Spagetti and Meatballs</li>
-	  <li>Lasagna</li>
-	  <li>Eggplant Parm</li>
-	</ul>
-  </div> 
+<DL>
+	<DT>Far West Fungi</DT>
+	<DD>Mushroom Scramble with scallions and soft goat cheese
+	with home fries</DD>
 
--->	
+	<DT>Breakfast on Brioche</DT>
+	<DD>Fried egg sandwich on toasted brioche bun 
+	topped with melted vermont cheddar cheese
+	carmelized onions crisp pancetta
+	and arugula</DD>
+
+	<DT>Banana praline pancakes</DT>
+	<DD>Buttermilk pancakes with handcrafted pralines
+	bananas toasted pecans and Maple syrup</DD>
+
+	<DT>Creole Benedict</DT>
+	<DD>buttermilk biscuit with Poached eggs
+	thin sliced Tasso ham
+	topped with roasted  heirloom tomato Hollandaise sauce</DD>
+	
+	<DT>King Claude's Granola with fresh fruit and Greek yogurt.</DT>
+
+<DL>	
+	
+</div>
+	
+	
+  <div id="events_and_tweets">
+	  
+    <div id="tweets" class="grid_6">
+	  <h3>Latest Tweets</h3>
+	
+	  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	  <script>
+	  new TWTR.Widget({
+	    version: 2,
+	    type: 'profile',
+	    rpp: 2,
+	    interval: 8000,
+	    width: 'auto',
+	    height: 100,
+	    theme: {
+	      shell: {
+	        background: '#37241e',
+	        color: '#94b3c8',
+	      },
+	      tweets: {
+	        background: '#37241e',
+	        color: '#94b3c8',
+	        links: '#bd8025'
+	      }
+	    },
+	    features: {
+	      scrollbar: false,
+	      loop: false,
+	      live: true,
+	      hashtags: true,
+	      timestamp: false,
+	      avatars: false,
+	      behavior: 'default'
+	    }
+	  }).render().setUser('jdsrevengesf').start();
+	  </script>
+
+  </div>
+
+  <div id="events" class="grid_6"> 
+	
+      <h3>Upcoming Events</h3>
+      <DL>
+	    <DT>
+        We are busy working on our first event...<br/>
+        more details to follow!
+        </DT>
+      </DL>	
+    </div>
 
 </div>
+	
+<div id="clear"></div>
+
 

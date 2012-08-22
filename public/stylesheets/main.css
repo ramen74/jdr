@@ -13,33 +13,34 @@ a:visited {color:#4D4E24;}  /* visited link */
 a:hover {color:#BD8025;} /* mouse over link */
 /*a:active {color:#816A4A;}*/  /* selected link */
 
-#intro { text-align: center; width: 800px; margin:0 auto; }
+#intro { text-align: center;  margin:0 auto; }
 
 #head { font-size: 25px; font-weight: 500;  margin-bottom: 20px; margin-top: 20px }
 
-#content {  height: 450px; }
+#content {  min-height: 600px; }
 
 #footer { background-color: #CCCCCC; padding: 5px; color: black; margin-top: 20px; }
 
 .spacer { margin-right: 5px; margin-left: 10px;}
 
-#bio { margin-top: 20px; }
+#bio { margin-top: 40px; margin-bottom: 40px; }
 
-.bio_link { padding-left: 10px; padding-right: 10px; font-weight: bold; }
+.bio_link { padding-left: 20px; padding-right: 20px; font-weight: bold; }
 
- #darren_pict {border: none; background-image: url('../images/darren.png'); height: 200px; background-repeat: no-repeat;
+#darren_pict {border: none; background-image: url('../images/darren.png'); height: 200px; background-repeat: no-repeat;
 margin: 0 auto;}
 	
 .personal_bio { height: 450px; }
 .personal_bio li { list-style: none;  }
 
- #sample_menu { width: 400px; margin:20px auto; margin-bottom: 50px;}
-.sample_menu { padding-top: 0px; margin-top: 20px; }
-.sample_menu li { list-style: none; margin: 0px; }
-.sample_menu ul { margin: 0px;}
+#sample_menu { width: 400px; margin:20px auto; margin-bottom: 50px;}
+#sample_menu dd { list-style: none; }
+#sample_menu dt { padding-top: 8px; font-weight: bold }
+#sample_menu dl { padding-top: 4px; }
 
-/*
-.footer { background-color: black; border-top: 1px solid white;  padding: 15px; text-align: center; margin-top: 20px;}
-.footer a {font-size: 20px; color:white; margin:10px; }
-.footer a:hover { color: red; }
-*/
+#events_and_tweets { margin-top: 100px }
+
+#tweets {padding: 0px} /* fix for grid system conflict that was runnning the page over.*/
+
+#tweets .twtr-hd { -moz-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; height: 0px; padding: 0px;}
+#tweets .twtr-ft { padding: 0px; height: 30px; margin: 0px; }
