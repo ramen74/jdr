@@ -5,7 +5,6 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 100; text-align: center; color: #94B3C8; text-align: center;
   background-color: #37241E;
-
 }
 
 a:link {color:#816A4A;}      /* unvisited link */
@@ -19,7 +18,7 @@ a:hover {color:#BD8025;} /* mouse over link */
 
 #content {  min-height: 600px; }
 
-#footer { background-color: #CCCCCC; padding: 5px; color: black; margin-top: 20px; }
+#footer { background-color: #CCCCCC; padding: 2px; color: black; margin-top: 10px;  background-image: url('../images/milou.png'); }
 
 .spacer { margin-right: 5px; margin-left: 10px;}
 
