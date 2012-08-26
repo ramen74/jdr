@@ -3,28 +3,54 @@
 
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 100; text-align: center; color: #94B3C8; text-align: center;
-  background-color: #37241E;
+  font-weight: 100; color: #94B3C8; /*text-align: center;*/
+  background-color: /*#816a4a*/ #37241E;
 }
+
+h2 { height: 30px;}
 
 a:link {color:#816A4A;}      /* unvisited link */
 a:visited {color:#4D4E24;}  /* visited link */
 a:hover {color:#BD8025;} /* mouse over link */
 /*a:active {color:#816A4A;}*/  /* selected link */
 
-#intro { text-align: center;  margin:0 auto; }
+.box { background-color: #37241E; 
+	padding: 10px;
+	height: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;    
+	/*border-style: solid;
+    border-color: black;
+    border-width: 1px;*/
+	border-top-style: solid;
+    border-top-color:#816a4a;
+    border-top-width: 1px;*/
+}
 
-#head { font-size: 25px; font-weight: 500;  margin-bottom: 20px; margin-top: 20px }
+#intro { /*text-align: center;*/  margin:0 auto; }
+
+#head { margin-top: 20px; margin-bottom: 20px; font-size: 25px; font-weight: 500; text-align: center;}
 
 #content {  min-height: 600px; }
 
-#footer { background-color: #CCCCCC; padding: 2px; color: black; margin-top: 10px;  background-image: url('../images/milou.png'); }
+#footer {padding: 2px; color: black; margin-top: 20px; background-color: #816a4a;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+ }
+
+#footer a:link {color:#4d4E24}
+#footer a:hover {color:#94B3C8}
+
 
 .spacer { margin-right: 5px; margin-left: 10px;}
 
-#bio { margin-top: 40px; margin-bottom: 40px; }
+#bio {  text-align: center;}
 
-.bio_link { padding-left: 20px; padding-right: 20px; font-weight: bold; }
+.bio_link { padding-left: 20px; padding-right: 20px; font-weight: bold;}
+
+.bio_link a {text-align: center;}
 
 #darren_pict {border: none; background-image: url('../images/darren.png'); height: 200px; background-repeat: no-repeat;
 margin: 0 auto;}
@@ -32,14 +58,29 @@ margin: 0 auto;}
 .personal_bio { height: 450px; }
 .personal_bio li { list-style: none;  }
 
-#sample_menu { width: 400px; margin:20px auto; margin-bottom: 50px;}
+#sample_menu { /* margin:20px auto */}
 #sample_menu dd { list-style: none; }
 #sample_menu dt { padding-top: 8px; font-weight: bold }
 #sample_menu dl { padding-top: 4px; }
 
-#events_and_tweets { margin-top: 100px }
+#events_and_tweets { }
 
 #tweets {padding: 0px} /* fix for grid system conflict that was runnning the page over.*/
 
 #tweets .twtr-hd { -moz-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; height: 0px; padding: 0px;}
 #tweets .twtr-ft { padding: 0px; height: 30px; margin: 0px; }
+
+#mc_embed_signup{  margin-top: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	}
+#mce-EMAIL {  -moz-border-radius: 10px;}
+	
+#mc-embedded-subscribe {  }
+	
+	
+/* common */
+
+.corners {-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; /* future proofing */ -khtml-border-radius: 10px; /* for old Konqueror browsers */ }
