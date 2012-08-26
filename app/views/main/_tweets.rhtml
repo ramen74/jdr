@@ -1,0 +1,37 @@
+<div id="tweets" class="grid_6">
+  <div class="box"> 
+	<h3>Latest Tweets</h3>
+	
+	  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	  <script>
+	  new TWTR.Widget({
+	    version: 2,
+	    type: 'profile',
+	    rpp: 2,
+	    interval: 8000,
+	    width: 'auto',
+	    height: 100,
+	    theme: {
+	      shell: {
+	        background: '#37241e',
+	        color: '#94b3c8',
+	      },
+	      tweets: {
+	        background: '#37241e',
+	        color: '#94b3c8',
+	        links: '#bd8025'
+	      }
+	    },
+	    features: {
+	      scrollbar: false,
+	      loop: false,
+	      live: true,
+	      hashtags: true,
+	      timestamp: false,
+	      avatars: false,
+	      behavior: 'default'
+	    }
+	  }).render().setUser('jdsrevengesf').start();
+	  </script>
+  </div>
+</div>
