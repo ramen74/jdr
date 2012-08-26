@@ -5271,3 +5271,55 @@ Rendered main/_tweets (0.1ms)
 Rendered main/_events (0.1ms)
 Rendered main/_sign_up (0.1ms)
 Completed in 160ms (View: 158, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-26 16:27:53) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (1.3ms)
+Rendered main/_sample_menu (0.8ms)
+Rendered main/_bio (62.5ms)
+Rendered main/_tweets (0.8ms)
+Rendered main/_events (0.7ms)
+Rendered main/_sign_up (0.7ms)
+Completed in 142ms (View: 140, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-26 16:27:56) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-26 16:29:10) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#darren (for 127.0.0.1 at 2012-08-26 16:29:12) [GET]
+Rendering template within layouts/standard
+Rendering main/darren
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (8.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#jen (for 127.0.0.1 at 2012-08-26 16:29:17) [GET]
+Rendering template within layouts/standard
+Rendering main/jen
+Completed in 7ms (View: 6, DB: 9) | 200 OK [http://localhost/main/jen]
