@@ -54,6 +54,8 @@ border-radius: 10px; /* future proofing */
 
 #darren_pict {border: none; background-image: url('../images/darren.png'); height: 200px; background-repeat: no-repeat;
 margin: 0 auto;}
+#jennifer_pict {border: none; background-image: url('../images/jen.png'); height: 200px; background-repeat: no-repeat;
+margin: 0 auto;}
 	
 .personal_bio { height: 450px; }
 .personal_bio li { list-style: none;  }
@@ -80,7 +82,7 @@ margin: 0 auto;}
 	
 #mc-embedded-subscribe {  }
 	
-	
+#fb { margin-top: 10px} 
 /* common */
 
 .corners {-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; /* future proofing */ -khtml-border-radius: 10px; /* for old Konqueror browsers */ }
