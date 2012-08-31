@@ -29,7 +29,9 @@ a:hover {color:#BD8025;} /* mouse over link */
 
 #intro { /*text-align: center;*/  margin:0 auto; }
 
-#head { margin-top: 20px; margin-bottom: 20px; font-size: 25px; font-weight: 500; text-align: center;}
+#main_title { border: none; background-image: url('../images/jd_revenge_title.png'); height: 140px; background-repeat: no-repeat; background-position: center}
+
+#head { margin-top: 20px; margin-bottom: 20px; font-size: 25px;}
 
 #content {  min-height: 600px; }
 
