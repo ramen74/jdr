@@ -7,25 +7,20 @@ body {
   background-color: /*#816a4a*/ #37241E;
 }
 
+h1 { font-size: 12px; font-weight: none; line-height: 100%; margin-bottom: 0px; color: #37241E}
+
+#title { float:right; padding-right: 20px; margin-top: 4px }
+
+#title_bar { color: #37241E}
 h2 { height: 30px;}
 
+#email { color: #37241E }
 a:link {color:#816A4A;}      /* unvisited link */
 a:visited {color:#4D4E24;}  /* visited link */
 a:hover {color:#BD8025;} /* mouse over link */
 /*a:active {color:#816A4A;}*/  /* selected link */
 
-.box { background-color: #37241E; 
-	padding: 10px;
-	height: 100%;
-	margin-top: 5px;
-	margin-bottom: 5px;    
-	/*border-style: solid;
-    border-color: black;
-    border-width: 1px;*/
-	border-top-style: solid;
-    border-top-color:#816a4a;
-    border-top-width: 1px;*/
-}
+.box { background-color: #37241E; padding: 10px; height: 100%; margin-top: 5px; margin-bottom: 5px; border-top-style: solid; border-top-color:#816a4a; border-top-width: 1px;}
 
 #intro { /*text-align: center;*/  margin:0 auto; }
 
