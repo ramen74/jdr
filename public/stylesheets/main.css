@@ -49,8 +49,9 @@ border-radius: 10px; /* future proofing */
 .spacer { margin-right: 5px; margin-left: 10px;}
 
 #bio {  text-align: center;}
+#bio { /*border: none; background-image: url('../images/bio_test.png');*/ height: 65px;}
 
-.bio_link { padding-left: 20px; padding-right: 20px; font-weight: bold;}
+.bio_link { padding-left: 20px; padding-right: 20px; font-weight: bold; }
 
 .bio_link a {text-align: center;}
 

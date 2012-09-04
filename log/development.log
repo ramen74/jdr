@@ -6272,3 +6272,393 @@ Processing MainController#darren (for 127.0.0.1 at 2012-08-31 00:46:54) [GET]
 Rendering template within layouts/standard
 Rendering main/darren
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/main/darren]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:33:20) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.6ms)
+Rendered main/_instagram (0.5ms)
+Rendered main/_sample_menu (0.6ms)
+Rendered main/_bio (25.1ms)
+Rendered main/_tweets (0.8ms)
+Rendered main/_events (0.4ms)
+Rendered main/_sign_up (0.6ms)
+Completed in 99ms (View: 98, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:33:22) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:34:41) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.7ms)
+Rendered main/_tweets (0.2ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:34:43) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.6ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:34:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.0ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:35:44) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.5ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:36:13) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:39:26) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.6ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:45:22) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:46:59) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.8ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 01:48:16) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-08-31 20:56:51) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:16:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.8ms)
+Rendered main/_instagram (24.6ms)
+Rendered main/_sample_menu (9.9ms)
+Rendered main/_bio (101.9ms)
+Rendered main/_tweets (24.2ms)
+Rendered main/_events (1.5ms)
+Rendered main/_sign_up (1.5ms)
+Completed in 251ms (View: 249, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:17:35) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:17:38) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:17:56) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:18:07) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.6ms)
+Rendered main/_instagram (0.5ms)
+Rendered main/_sample_menu (0.7ms)
+Rendered main/_bio (8.1ms)
+Rendered main/_tweets (0.6ms)
+Rendered main/_events (0.4ms)
+Rendered main/_sign_up (0.5ms)
+Completed in 85ms (View: 83, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:19:04) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.7ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:19:16) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.6ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:19:29) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.6ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:19:47) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (1.0ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:20:00) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.6ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:20:16) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:20:27) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.4ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:20:39) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.6ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2012-09-04 13:20:48) [GET]
+Rendering template within layouts/standard
+Rendering main/index
+Rendered main/_concept (0.1ms)
+Rendered main/_instagram (0.1ms)
+Rendered main/_sample_menu (0.1ms)
+Rendered main/_bio (0.5ms)
+Rendered main/_tweets (0.1ms)
+Rendered main/_events (0.1ms)
+Rendered main/_sign_up (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
