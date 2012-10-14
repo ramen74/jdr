@@ -15,10 +15,15 @@ h1 { font-size: 12px; font-weight: none; line-height: 100%; margin-bottom: 0px; 
 h2 { height: 30px;}
 
 #email { color: #37241E }
-a:link {color:#816A4A;}      /* unvisited link */
-a:visited {color:#4D4E24;}  /* visited link */
-a:hover {color:#BD8025;} /* mouse over link */
-/*a:active {color:#816A4A;}*/  /* selected link */
+
+/* a:link {color:#816A4A;}      
+a:visited {color:#4D4E24;} 
+a:hover {color:#BD8025;} */
+
+a:link {color: #BD8025;}      
+a:visited {color: #BD8025;} 
+a:hover {color: #4D4E24;}
+
 
 .box { background-color: #37241E; padding: 10px; height: 100%; margin-top: 5px; margin-bottom: 5px; border-top-style: solid; border-top-color:#816a4a; border-top-width: 1px;}
 
@@ -36,10 +41,6 @@ a:hover {color:#BD8025;} /* mouse over link */
 border-radius: 10px; /* future proofing */
 -khtml-border-radius: 10px; /* for old Konqueror browsers */
  }
-
-#footer a:link {color:#4d4E24}
-#footer a:hover {color:#94B3C8}
-
 
 .spacer { margin-right: 5px; margin-left: 10px;}
 
@@ -62,6 +63,11 @@ margin: 0 auto;}
 #sample_menu dd { list-style: none; }
 #sample_menu dt { padding-top: 8px; font-weight: bold }
 #sample_menu dl { padding-top: 4px; }
+
+/*#events a:link {color:#816A4A;}      
+#events a:visited {color:#4D4E24;} 
+#events	a:hover {color:#BD8025;} 
+*/
 
 #events_and_tweets { }
 
