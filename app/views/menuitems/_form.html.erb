@@ -1,0 +1,40 @@
+<%= form_for(@menuitem) do |f| %>
+  <% if @menuitem.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@menuitem.errors.count, "error") %> prohibited this menuitem from being saved:</h2>
+
+      <ul>
+      <% @menuitem.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_area :name, :cols => 40, :rows => 1%>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description, :cols => 40, :rows => 12%>
+  </div>
+  <div class="field">
+    <%= f.label :note %><br />
+    <%= f.text_area :note, :cols => 40, :rows => 3%>
+  </div>
+  <div>
+	<%- for event in Event.all %>
+	  <div>
+	    <%= check_box_tag "menuitem[event_ids][]", event.id,
+@menuitem.events.include?(event) %>
+        <%= event.name %>
+      </div>
+    <%- end %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<%# TODO: Create a make a new dish like this here...%>

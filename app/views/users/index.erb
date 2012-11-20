@@ -1,0 +1,7 @@
+
+<%- @users.each do |user| %>
+  Name: [<%= user.email %>] Role: [<%= user.role unless nil? %>] 
+  <%= link_to "Promote", promote_user_path(user.id), data: { confirm: 'Are you really sure?' } unless user.role == 'admin' %>
+  <%= link_to "Delete", remove_user_path(user.id), data: { confirm: 'Are you really sure?' } %>
+   <br/>
+<%- end %>

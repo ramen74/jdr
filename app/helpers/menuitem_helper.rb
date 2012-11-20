@@ -1,0 +1,2 @@
+module MenuitemHelper
+end

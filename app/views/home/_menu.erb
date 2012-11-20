@@ -1,0 +1,26 @@
+<%# this takes an event %>
+<div id="sample_menu" class="grid_6">
+  <div class="box">
+    <h2><%= @next_event.name %> <%= @next_event.date.strftime("%b %d")%> Menu</h2>
+    (subject to change... of course) <br/>
+    
+     <DL>
+     <%- @next_event.menuitems.each do |dish| %>
+	  <%= "<DT> #{dish.name}</DT>".html_safe unless dish.name.blank? %>
+	  <%= "<DD> #{dish.description}</DT>".html_safe unless dish.description.blank? %>
+	  <%= "<DD> #{dish.note}</DT>".html_safe unless dish.note.blank? %>
+      	 <%- if can? :edit, dish%>
+		    <DD><%= link_to 'Edit', edit_menuitem_path(dish) %> or <%= link_to 'Destroy', dish, method: :delete, data: { confirm: 'Are you really sure?' } %></DD> 
+		 <%- end %>
+    <%- end %>
+    </DL>
+    <%- if can? :edit, @next_event%>
+    <div class="edit_destroy">
+    <%= link_to 'Edit Menu', edit_event_path(@next_event) %> or <%= link_to 'Destroy Menu', @next_event, method: :delete, data: { confirm: 'Are you really sure?' } %>
+    </div>        
+  <%- end %>
+	
+  </div>
+
+	
+</div>

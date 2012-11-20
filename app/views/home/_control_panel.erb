@@ -1,0 +1,16 @@
+<div class='box'>
+
+<%- if can? :new, @event%>
+   <div class="menuitem_options">
+     <span><%=  link_to 'Show Events', events_path %> or <%= link_to 'Create a New Event', new_event_path %></span>
+   </div>  
+<%- end %>
+
+<%- if can? :new, @menuitem%> 
+  <div class="menuitem_options">
+  <%= link_to 'Show Dishes', menuitems_path %> or <%= link_to 'Create a New Dish', new_menuitem_path %><br/>
+  </div>
+<%- end %>
+
+</div>
+

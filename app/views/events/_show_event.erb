@@ -1,0 +1,35 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Place</th>
+    <th>Address</th>
+    <th>Phone</th>
+    <th>Other</th>
+    <th>Menu</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+
+<% @events.each do |event| %>
+  <tr>
+    <td><%= event.name %></td>
+    <td><%= event.date.strftime("%b %d %Y") %></td>
+    <td><%= event.time %></td>
+    <td><%= event.place %></td>
+    <td><%= event.address %></td>
+    <td><%= event.phone %></td>
+    <td><%= event.other %></td>
+    <td><%- event.menuitems.each  do  |x| %>
+	    <%= ("-" + x.name + "<br />").html_safe %>
+	    <%- end %></td>
+    <td><%= link_to 'Show', event %></td>
+    <td><%= link_to 'Edit', edit_event_path(event) %></td>
+    <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you really sure?' } %></td>
+  </tr>
+<% end %>
+
+</table>

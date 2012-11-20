@@ -1,0 +1,27 @@
+<%# this should just show if the user is ALREADY logged in %>
+<%- if user_signed_in? %>
+  <div id="user_nav" class="grid_12">  
+    Signed in as <%= current_user.email %>. Not you?
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+  </div>
+<%- end %>
+
+<%= render :partial => 'instagram' %>
+<%= render :partial => 'concept' %>
+<%= render :partial => 'bio' %>
+<div class="clear"></div>
+<%= render :partial => 'events/events' %>
+<%= render :partial => 'menu' unless @next_event.blank?%>
+<%= render :partial => 'tweets' %>
+<%= render :partial => 'sign_up' %>
+<div class="clear"></div>
+<%- if can? :new, @event %>
+<%= render :partial => 'control_panel' %>
+<%- end %>
+
+
+
+
+
+
+

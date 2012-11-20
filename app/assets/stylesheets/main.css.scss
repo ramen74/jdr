@@ -1,0 +1,127 @@
+
+/* 37241E 94B3C8 4D4E24 BD8025 816A4A */
+$background_color: #37241E;
+$font_color: #94B3C8;
+$link_hover: #4D4E24;
+$link_link_visited: #BD8025;
+$color_e: #e24b2c;
+$border_color:  #816A4A;
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 100%;
+  font-weight: 100; color: $font_color;
+  background-color: $background_color;
+}
+
+h1 { font-size: 12px; font-weight: none; line-height: 100%; margin-bottom: 0px; color: $background_color}
+
+#title { float:right; padding-right: 20px; margin-top: 4px }
+
+#title_bar { color: $background_color}
+
+h2 { height: 50px;}
+
+#email { color: $background_color }
+
+a:link {color: $link_link_visited;}      
+a:visited {color: $link_link_visited;} 
+a:hover {color: $link_hover;}
+
+.box { background-color: $background_color; padding: 10px; height: 100%; margin-top: 5px; margin-bottom: 5px; border-top-style: solid; border-top-color: $border_color; border-top-width: 1px; position: relative;}
+
+#intro { /*text-align: center;*/  margin:0 auto; }
+
+#main_title img {display: block; margin-left: auto; margin-right: auto;border: none;height: 140px;
+}
+
+#head { margin-top: 20px; margin-bottom: 20px; font-size: 25px;}
+
+#footer {padding: 2px; color: black; margin-top: 20px; background-color: $border_color;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+ }
+
+.spacer { margin-right: 5px; margin-left: 10px;}
+
+.edit_options { 
+border-color: $border_color;
+border-style:solid;
+border-width:1px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#bio {  text-align: center;}
+
+.bio_link { padding-left: 20px; padding-right: 20px; font-weight: bold; }
+
+.bio_link a {text-align: center;}
+
+#darren_pict {border: none;
+background: url('/assets/darren.png'); height: 200px; background-repeat: no-repeat; margin: 0 auto;}
+
+#jennifer_pict {border: none; background: url('/assets/jen.png'); height: 200px; background-repeat: no-repeat;
+margin: 0 auto;}
+	
+.personal_bio { height: 450px; }
+.personal_bio li { list-style: none;  }
+
+#instagram { height: 500px }
+
+#sample_menu dd { list-style: none; }
+#sample_menu dt { padding-top: 8px; font-weight: bold }
+#sample_menu dl { padding-top: 4px; }
+
+.event { padding-bottom: 15px;
+       .title  {text-style: bold;}
+       }
+                             
+#tweets {padding: 0px} /* fix for grid system conflict that was runnning the page over.*/
+
+#tweets .twtr-hd { -moz-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; height: 0px; padding: 0px;}
+#tweets .twtr-ft { padding: 0px; height: 30px; margin: 0px; }
+
+#mc_embed_signup{  margin-top: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	}
+#mce-EMAIL {  -moz-border-radius: 10px;}
+	
+#mc-embedded-subscribe {  }
+	
+#fb { margin-top: 10px} 
+/* common */
+
+#sample_menu { .edit_destroy {
+margin-top: 20px; }}
+
+.corners {-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; /* future proofing */ -khtml-border-radius: 10px; /* for old Konqueror browsers */ }
+
+
+
+th {
+        color: black;/*#6D929B;*/
+        border-right: 1px solid silver; /*#C1DAD7;*/
+        border-bottom: 1px solid silver; /*#C1DAD7;*/
+        border-top: 1px solid silver; /*#C1DAD7;*/
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: left;
+        padding: 2px 10px 2px 5px;
+        background: silver; /*#CAE8EA;*/
+}
+
+td {
+        letter-spacing: 1px;
+        text-align: left;
+        border-right: 1px solid silver;
+        border-bottom: 1px solid silver;
+        background: #fff;
+        padding: 2px 10px 2px 5px;
+        color: black;
+}

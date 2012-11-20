@@ -1,0 +1,9 @@
+ <%- @events.each do |event| %>
+
+    <%- unless event.menuitems.include?(menuitem)%>
+	  <td><%= button_to "add dish to #{event.name}", {:controller => "home", :action => "dish_to_event", :menuitem => menuitem.id, :event => event.id } %></td>
+	<%- else%>
+      <td><%= button_to "remove dish from #{event.name}", {:controller => "home", :action => "purge_dish_from_event", :menuitem => menuitem.id, :event => event.id } %></td>
+    <%- end %>
+
+ <%- end %>

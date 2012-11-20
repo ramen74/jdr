@@ -1,0 +1,33 @@
+<h1>Listing menuitems</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Note</th>
+    <th>Event count</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @menuitems.each do |menuitem| %>
+  <tr>
+    <td><%= menuitem.name %></td>
+    <td><%= menuitem.description %></td>
+    <td><%= menuitem.note %></td>
+    <td><%= menuitem.events.size %></td>
+    <td><%= link_to 'Show', menuitem %></td>
+    <td><%= link_to 'Edit', edit_menuitem_path(menuitem) %></td>
+    <td><%= link_to 'Destroy', menuitem, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    
+    <%#= render 'add_dish', :events => @events, :menuitem => menuitem %>
+ 
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Dish', new_menuitem_path %>

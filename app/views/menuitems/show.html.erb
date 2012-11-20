@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%= @menuitem.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @menuitem.description %>
+</p>
+<p>
+  <b>Note:</b>
+  <%= @menuitem.note %>
+</p>
+
+<p>
+  <%- @menuitem.events.each  do  |x| %>
+    <%= (x.name + "<br />").html_safe %>
+  <%- end %>
+</p>
+
+
+<%= link_to 'Edit', edit_menuitem_path(@menuitem) %> |
+<%= link_to 'Back', menuitems_path %>

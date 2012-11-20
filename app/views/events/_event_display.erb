@@ -1,0 +1,14 @@
+<div class="event">
+  <%= "<b>#{event.name}</b><br/>".html_safe unless event.name.blank? %>
+  <%= "Date: #{event.date.strftime('%A, %B %d %Y')}</br>".html_safe unless event.date.blank?%>
+  <%= "Time: #{event.time}</br>".html_safe unless event.time.blank? %>
+  <%= "Place: #{ftext event.place}</br>".html_safe unless event.place.blank?%>
+  <%= "#{ftext event.address}</br>".html_safe unless event.address.blank?%>
+  <%= "Phone: #{ftext event.phone}</br>".html_safe unless event.phone.blank? %>
+  <%= "#{ftext event.other}</br>".html_safe unless event.other.blank? %>
+  <%- if can? :edit, @event%>
+    <div class="edit_destroy">
+    <%= link_to 'Edit', edit_event_path(event) %> or <%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you really sure?' } %>
+    </div>        
+  <%- end %>
+</div>
