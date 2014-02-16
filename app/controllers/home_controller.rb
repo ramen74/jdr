@@ -2,8 +2,10 @@ class HomeController < ApplicationController
   
   def index
     #include EventsHelper
-    @future_events = Event.find(:all, :order => 'date',:conditions => ["date >= Curdate()"], :limit => 1)
-    @past_events = Event.find(:all, :order => 'date',:conditions => ["date < Curdate()"], :limit => 1)
+    @future_events = Event.find(:all, :order => 'date',:conditions => ["date >= Curdate()"], :order => "date ASC")
+    @past_events = Event.find(:all, :order => 'date',:conditions => ["date < Curdate()"], :order => "date DESC")
+    @future_events = Kaminari.paginate_array(@future_events).page(params[:page]).per(5)
+    @past_events = Kaminari.paginate_array(@past_events).page(params[:page]).per(3)
     @next_event = @future_events[0]
   end 
   

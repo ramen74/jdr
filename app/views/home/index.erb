@@ -6,18 +6,37 @@
   </div>
 <%- end %>
 
-<%= render :partial => 'instagram' %>
-<%= render :partial => 'concept' %>
-<%= render :partial => 'bio' %>
-<div class="clear"></div>
-<%= render :partial => 'events/events' %>
-<%= render :partial => 'menu' unless @next_event.blank?%>
-<%= render :partial => 'tweets' %>
-<%#= render :partial => 'sign_up' %>
-<div class="clear"></div>
+
+<%#= upcoming events layout  %>
+<%- unless @next_event.blank? %>
+  <%= render :partial => 'instagram' %>
+  <%= render :partial => 'concept' %>
+  <%= render :partial => 'bio' %>
+  <div class="clear"></div>
+  <%= render :partial => 'menu' %>
+  <div class="clear"></div>
+  <%= render :partial => 'events/events' %>
+  <%= render :partial => 'tweets' %>
+  <%#= render :partial => 'sign_up' %>
+  <div class="clear"></div>
+<%#= NO upcoming events %>
+<%- else %>
+  <%= render :partial => 'instagram' %>
+  <%= render :partial => 'concept' %>
+  <%= render :partial => 'bio' %>
+  <div class="clear"></div>
+  <%= render :partial => 'events/events' %>
+  <%= render :partial => 'tweets' %>
+   <div class="clear"></div>
+<%- end %>
+
+
+
 <%- if can? :new, @event %>
 <%= render :partial => 'control_panel' %>
 <%- end %>
+
+
 
 
 

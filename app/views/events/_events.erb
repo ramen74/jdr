@@ -1,11 +1,14 @@
 <div id="events" class="grid_6"> 
   <div class="box">
+  
 
     <%- if !@future_events.blank? %>
       <h2>Upcoming Events</h2>
-      <%- events = @future_events %>
+      <%= paginate @future_events %>
+      <%- events = @future_events %><br/>
     <%- elsif !@past_events.blank? %>
       <h2>Past Events</h2>
+      <%= paginate @past_events %><br/>
       <%- events = @past_events %>
     <%- else %>
       <h2>Upcoming events</h2>
