@@ -13,7 +13,7 @@
 <%= render :partial => 'events/events' %>
 <%= render :partial => 'menu' unless @next_event.blank?%>
 <%= render :partial => 'tweets' %>
-<%= render :partial => 'sign_up' %>
+<%#= render :partial => 'sign_up' %>
 <div class="clear"></div>
 <%- if can? :new, @event %>
 <%= render :partial => 'control_panel' %>
